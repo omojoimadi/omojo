@@ -524,3 +524,40 @@ footer p {
 }
 
 /* MOBILE */
+@media (max-width: 768px) {
+    .nav-center {
+        display: none;
+    }
+
+    #hero {
+        min-height: calc(100vh - 70px);
+        padding: 40px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 1.8rem;
+    }
+
+    .about-inner {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .about-img {
+        width: 140px;
+    }
+
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .certs-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+}
