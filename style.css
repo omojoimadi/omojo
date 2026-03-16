@@ -1,0 +1,96 @@
+/* VARIABLES */
+:root {
+    --bg: #090d12;
+    --bg-card: rgba(255, 255, 255, 0.03);
+    --border: rgba(255, 255, 255, 0.08);
+    --border-hover: rgba(100, 255, 218, 0.2);
+    --teal: #64ffda;
+    --teal-dim: rgba(100, 255, 218, 0.06);
+    --text: #ffffff;
+    --text-dim: rgba(255, 255, 255, 0.38);
+    --text-muted: rgba(255, 255, 255, 0.2);
+    --font-mono: 'JetBrains Mono', monospace;
+    --font-sans: 'Inter', sans-serif;
+    --radius: 14px;
+    --radius-sm: 8px;
+    --transition: 0.2s ease;
+}
+
+/* RESET */
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+/* BASE */
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+main {
+    padding-top: 70px;
+}
+
+section {
+    padding: 80px 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+    scroll-margin-top: 70px;
+}
+
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 40px;
+}
+
+.section-label span {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    white-space: nowrap;
+}
+
+.label-line {
+    flex: 1;
+    height: 0.5px;
+    background: var(--border);
+}
+
+.teal {
+    color: var(--teal);
+}
+
+/* NAV */
+/* HERO */
+/* ABOUT */
+/* SKILLS */
+/* CERTS */
+/* PROJECTS */
+/* FOOTER */
+/* MOBILE */
