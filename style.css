@@ -244,6 +244,23 @@ nav {
     fill: var(--teal);
 }
 
+.hero-actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.hero-resume {
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    transition: color var(--transition);
+}
+
+.hero-resume:hover {
+    color: var(--teal);
+}
+
 /* ABOUT */
 .about-inner {
     display: flex;
