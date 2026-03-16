@@ -87,6 +87,89 @@ section {
 }
 
 /* NAV */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0 20px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    background: var(--bg);
+    border-bottom: 0.5px solid var(--border);
+    z-index: 9999;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.nav-logo {
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    color: var(--text);
+    transition: color var(--transition);
+}
+
+.nav-logo:hover {
+    color: var(--teal);
+}
+
+.nav-center {
+    display: flex;
+    gap: 28px;
+}
+
+.nav-center a {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+    transition: color var(--transition);
+}
+
+.nav-center a:hover {
+    color: var(--teal);
+}
+
+.nav-right {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.nav-right a {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: var(--radius-sm);
+    background: var(--bg-card);
+    border: 0.5px solid var(--border);
+    transition: border-color var(--transition);
+}
+
+.nav-right a:hover {
+    border-color: var(--border-hover);
+}
+
+.nav-right svg {
+    width: 14px;
+    height: 14px;
+    fill: var(--text-muted);
+    transition: fill var(--transition);
+}
+
+.nav-right a:hover svg {
+    fill: var(--teal);
+}
+
 /* HERO */
 /* ABOUT */
 /* SKILLS */
