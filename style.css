@@ -171,6 +171,79 @@ nav {
 }
 
 /* HERO */
+#hero {
+    min-height: calc(100vh - 70px);
+    display: flex;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.hero-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+}
+
+.hero-prompt {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: rgba(100, 255, 218, 0.5);
+    margin-bottom: 20px;
+}
+
+.prompt-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--teal);
+    opacity: 0.5;
+}
+
+.hero-text h1 {
+    font-family: var(--font-mono);
+    font-size: clamp(1.8rem, 5vw, 3rem);
+    font-weight: 500;
+    line-height: 1.3;
+    margin-bottom: 20px;
+    letter-spacing: -0.5px;
+}
+
+.hero-sub {
+    font-family: var(--font-sans);
+    font-size: 1rem;
+    color: var(--text-dim);
+    margin-bottom: 36px;
+    max-width: 480px;
+}
+
+.hero-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 10px 20px;
+    border-radius: var(--radius-sm);
+    border: 0.5px solid rgba(100, 255, 218, 0.3);
+    background: var(--teal-dim);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--teal);
+    transition: background var(--transition), border-color var(--transition);
+}
+
+.hero-cta:hover {
+    background: rgba(100, 255, 218, 0.1);
+    border-color: rgba(100, 255, 218, 0.4);
+}
+
+.hero-cta svg {
+    width: 14px;
+    height: 14px;
+    fill: var(--teal);
+}
+
 /* ABOUT */
 /* SKILLS */
 /* CERTS */
