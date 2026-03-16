@@ -245,6 +245,39 @@ nav {
 }
 
 /* ABOUT */
+.about-inner {
+    display: flex;
+    gap: 60px;
+    align-items: flex-start;
+}
+
+.about-text {
+    flex: 1;
+}
+
+.about-text p {
+    font-size: 1rem;
+    color: var(--text-dim);
+    line-height: 1.9;
+    margin-bottom: 20px;
+}
+
+.about-img {
+    flex-shrink: 0;
+    width: 220px;
+}
+
+.about-img img {
+    width: 100%;
+    border-radius: var(--radius);
+    border: 0.5px solid var(--border);
+    transition: border-color var(--transition);
+}
+
+.about-img img:hover {
+    border-color: var(--border-hover);
+}
+
 /* SKILLS */
 /* CERTS */
 /* PROJECTS */
