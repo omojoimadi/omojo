@@ -227,9 +227,17 @@
                 </div>   
         </section>
     </main>
-    <footer>
 
+    <!-- footer -->
+    <footer>
+        <div class="footer-inner">
+            <p>Built by Victory Omojo Imadi</p>
+            <p>&copy;<span id="year"></span></p>
+        </div>
     </footer>
-    <script src="script.js"></script>
+
+    <script src="script.js">
+        document.getElementById("year").textContent = new Date().getFullYear();
+    </script>
 </body>
 </html>
