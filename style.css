@@ -504,4 +504,23 @@ nav {
 }
 
 /* FOOTER */
+footer {
+    border-top: 0.5px solid var(--border);
+    padding: 30px 20px;
+}
+
+.footer-inner {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer p {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    color: var(--text-muted);
+}
+
 /* MOBILE */
